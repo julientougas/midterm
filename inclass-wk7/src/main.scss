@@ -1,0 +1,38 @@
+body {
+    min-width: 900px;
+}
+
+.header {
+    padding-left: 2%;
+}
+
+.wrap {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.contactList {
+    float: left;
+    width: 50%;
+    min-width: 300px;
+    ul {
+        list-style: none;
+        div > li {
+            overflow: auto;
+            padding-bottom: 2%;
+            a {
+                text-decoration: none;
+                img {
+                    float: left;
+                    padding-right: 2%;
+                }
+            }
+        }
+    }
+}
+
+.contactDetails {
+    display: block;
+    float: left;
+    padding-left: 2%;
+}
